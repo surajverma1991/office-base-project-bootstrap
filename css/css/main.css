@@ -1,0 +1,137 @@
+.header .custom {
+  background: #4b95a1;
+  border-color: transparent;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.header .custom-nav-brand {
+  font-size: 25px;
+  color: #fff;
+  font-family: Cherry Swash;
+}
+.header .custom-link {
+  color: #fff;
+}
+.header .custom-link:hover {
+  color: #4b95a1;
+}
+.header .custom-icon {
+  background: #000;
+}
+
+.section_1 img {
+  width: 100%;
+}
+.section_1 .custom-btn {
+  background: transparent;
+  border: 2px solid #afb1b4;
+  color: #afb1b4;
+  padding: 5px 30px 5px 30px;
+  color: #fff;
+}
+.section_1 .custom-btn:active,
+.section_1 .custom-btn:hover {
+  background: #4b95a1;
+}
+
+.section_2 .inner-div {
+  margin: 100px 0;
+}
+.section_2 .custom-head {
+  margin: 0;
+  padding: 0;
+}
+.section_2 .custom-para {
+  margin: 0;
+  padding: 70px 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.section_2 .fa {
+  font-size: 70px;
+  color: #5eb6c4;
+}
+.section_2 .custom-heght {
+  margin: 30px 0;
+}
+
+.section_3 {
+  background: #00d089;
+}
+.section_3 .content-portfolio {
+  max-width: 35%;
+  margin: 60px auto;
+  position: relative;
+}
+.section_3 .content-portfolio .img-container {
+  margin: 20px;
+}
+.section_3 .content-portfolio .para-1 {
+  color: #fff;
+  margin: 0;
+  font-size: 28px;
+}
+.section_3 .inner-div {
+  margin: 100px 0;
+}
+.section_3 .para {
+  color: #fff;
+  line-height: 25px;
+}
+
+.footer .contact-container {
+  max-width: 400px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 50px auto;
+}
+.footer .form-container {
+  margin: 95px auto;
+  max-width: 235px;
+}
+.footer textarea {
+  resize: none;
+}
+.footer .form-control {
+  border-radius: 0;
+}
+.footer .custom-btn {
+  background: #00d089;
+  border-radius: 50%;
+  border: 0;
+  font-size: 37px;
+}
+.footer .custom-btn:active,
+.footer .custom-btn:hover {
+  background: #4b95a1;
+}
+.footer .btn-container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer .copyright-container {
+  background: #00d089;
+}
+.footer .copyright {
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 992px) {
+  .section_2 .custom-heght {
+    margin: 0 0;
+  }
+  .section_2 .fa {
+    font-size: 50px;
+    color: #5eb6c4;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

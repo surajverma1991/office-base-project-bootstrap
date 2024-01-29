@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap 3 and Angular 1 Practices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+    .nav,
+    .pagination,
+    .carousel,
+    .panel-title a {
+        cursor: pointer;
+    }
+    </style>
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/css/main.css">
+</head>
+
+<body ng-app="phonecatApp">
+    <div class="wrapper-container" ng-controller="Controller">
+        <div class="header">
+            <nav class="navbar custom">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar custom-icon"></span>
+                            <span class="icon-bar custom-icon"></span>
+                            <span class="icon-bar custom-icon"></span>
+                        </button>
+                        <a class="navbar-brand custom-nav-brand" href="#">{{header}}</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-item" ng-repeat="items in list_nav">
+                                <a class="nav-link custom-link" href="#" >{{items.name}}</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+                <!--/.container-fluid -->
+            </nav>
+        </div>
+        <div class="section_1">
+            <carousel interval="carouselTimer">
+                <slide ng-repeat="slide in img_section" active="slide.active">
+                    <img ng-src="{{slide.imgItem}}" >
+                    <div class="carousel-caption">
+                        <h4>{{slide.cap}}</h4>
+                        <button class="btn btn-default custom-btn">Read More</button>
+                    </div>
+                </slide>
+            </carousel>
+        </div>
+        <div class="section_2">
+            <div class="container">
+                <div class="inner-div">
+                    <h3 class="text-center custom-head">{{section_2_head}}</h3>
+                    <p class="text-center custom-para">{{section_2_para}}</p>
+                    <div class="row text-center">
+                        <div class="col-xs-12 col-md-4 custom-heght" ng-repeat="icon in icons_img">
+                            <i class='{{icon.icons}}' aria-hidden='true'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section_3">
+            <div class="container">
+                <div class="inner-div">
+                    <div class="portfolio">
+                        <div class="content-portfolio">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6 text-center">
+                                    <img src="{{section_3_img1}}"/>
+                                </div>
+                                    <div class="col-xs-12 col-md-6 text-center">
+                                        <p class="para-1">{{section_3_text1}}</p>
+                                        <img src="{{section_3_img2}}">
+                                </div>
+                                    </div>
+                                </div>
+                                <p class="para">{{section_3_text2}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="container">
+                        <div class="contact-container">
+                            <div class="form-container">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="email address" aria-describedby="basic-addon1"></div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="3" id="comment" placeholder="Message"></textarea>
+                                </div>
+                                <div class=" btn-container">
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-primary custom-btn"><i class="fa fa-check" aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright-container">
+                        <div class="container text-center">
+                            <p class="copyright">COPYRIGHT &copy; 2012 CSS AUTHOR.COM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="vendor/jquery/jquery-3.3.1.min.js"></script>
+            <script src="vendor/angular-1.0.8/angular.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>
+            <script type="text/javascript" src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

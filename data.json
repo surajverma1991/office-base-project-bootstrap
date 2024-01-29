@@ -1,0 +1,58 @@
+{
+    "header_name": "Black Sea",
+    "list_nav": [
+    {
+        "name": "HOME"
+    },
+    {
+        "name": "ABOUT ME"
+    },
+    {
+        "name": "PORTFOLIO"
+    },
+    {
+        "name": "CONTACT ME"
+    }],
+    "img_section_1": [
+    {
+        "imgItem": "images/bg1.png",
+        "cap": "WE NEED THE TONIC OF WILDNESS"
+    },
+    {
+        "imgItem": "images/bg2.png",
+        "cap": "WE NEED THE TONIC OF WILDNESS"
+    },
+    {
+        "imgItem": "images/bg3.jpg",
+        "cap": "WE NEED THE TONIC OF WILDNESS"
+    },
+    {
+        "imgItem": "images/bg4.jpg",
+        "cap": "WE NEED THE TONIC OF WILDNESS"
+    },
+    {
+        "imgItem": "images/bg5.jpg",
+        "cap": "WE NEED THE TONIC OF WILDNESS"
+    },
+    {
+        "imgItem": "images/bg6.png",
+        "cap": "WE NEED THE TONIC OF WILDNESS"
+    }],
+    "section_2_head": "At the same time that we are earnest to explore & learn all things",
+    "section_2_para": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "img_icons": [
+    {
+        "icons": "fa fa-shopping-basket"
+    },
+    {
+        "icons": "fa fa-globe"
+    },
+    {
+        "icons": "fa fa-briefcase"
+    }],
+    "section_3_img1":"images/dhawan-img.png",
+    "section_3_img2":"images/comma.png",
+    "section_3_text1":"DHAVAN",
+    "section_3_text2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting"
+
+}
